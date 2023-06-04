@@ -14,6 +14,7 @@ public class stepDef1 extends BaseClass {
 		co.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(co);
 	    }
+	
 
 	@When("Enter the url as {string}")
 	public void method2(String url) throws Exception {
