@@ -6,7 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class stepDef2 extends BaseClass{
 	@Then("search a word and click Enter and check page title")
@@ -32,7 +34,7 @@ public class stepDef2 extends BaseClass{
 	}
 	
 
-			@Then("close  browser")
+	@Then("close browser")
 			public void close_browser() {
 				driver.close();
 				
@@ -45,6 +47,5 @@ public class stepDef2 extends BaseClass{
 			
 			
 		}
-	
-	    
+
 
